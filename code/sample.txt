@@ -1,0 +1,17 @@
+Word frequency analysis is a small but useful text processing task.
+A word frequency program reads a text file and counts how often each word appears.
+The word counts are sorted so that the most frequent words are printed first.
+
+Text is everywhere: notes, reports, source code, and web pages are all text.
+Counting words helps you see which words the text repeats, and repeated words
+often point at the main topic of the text.
+
+The program below is short on purpose. It reads the text, normalizes the text to
+lower case, and then counts every word. Case should not matter when you count
+words, so the word "Text" and the word "text" are counted as the same word.
+
+Punctuation is not a word, so the program strips it before counting. Numbers are
+kept, because a number such as 2024 can still be a useful token in a report.
+
+Once the counts are ready, the program prints the top words in order. A short
+report like this one is enough for a first look at any text file.
